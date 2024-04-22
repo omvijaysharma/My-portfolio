@@ -31,7 +31,7 @@ body, html {
     font-size: 50px;
 }
 .vijay {
-    height: 13%;
+    height: auto;
     width: 40%;
     position: fixed;
     z-index: 1; 
