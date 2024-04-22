@@ -1,0 +1,94 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.video-container,.bg-video {
+    width: 100%;
+    height: 100%;
+}
+.video-container {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  object-fit: cover;
+}
+.portfolio {
+    margin: 0;
+    padding: 0;
+    color: white;
+    position: fixed;
+    z-index: 1;
+    left: 5%;
+    top: 5%;
+    font-size: 50px;
+}
+.vijay {
+    height: 13%;
+    width: 40%;
+    position: fixed;
+    z-index: 1; 
+    top: 40%;
+    left: 5%;
+}
+.buttons {
+    position: fixed;
+    top: 5%;
+    right: 5%;
+}
+.home_button,.project_button,.github_button,.about_button,.contact_button {
+    border: none;
+    color: white;
+    margin-right: 10px;
+    background: transparent;
+    font-size: 15px;
+}
+.title {
+    position: fixed;
+    z-index: 1;
+    top: 55%;
+    color: #00d5ff;
+    left: 8%;
+    font-size: 20px;
+}
+.home_button {
+    color: red;
+}
+@media only screen and (max-width: 600px) {
+
+.portfolio {
+    top: 2%;
+    left: 25%;
+}
+.buttons {
+    top: 15%;
+    left: 1%;
+    height: auto;
+    width: 100%;
+    background-color: black;
+}
+.home_button,.project_button,.github_button,.about_button,.contact_button {
+    margin-right: 0px;
+    width: 19%;
+    font-size: 13px;
+    border: 1px solid white;
+    border-radius: 3px;
+    height: auto;
+}
+.title {
+    top: 80%;
+    left: 33%;
+}
+.vijay {
+    width: 95%;
+    left: 2.5%;
+    top: 68%;
+}
+}
