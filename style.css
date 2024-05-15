@@ -35,8 +35,8 @@ body, html {
     width: 40%;
     position: fixed;
     z-index: 1; 
-    top: 40%;
-    left: 5%;
+    top: 60%;
+    left: 30%;
 }
 .buttons {
     position: fixed;
@@ -53,15 +53,15 @@ body, html {
 .title {
     position: fixed;
     z-index: 1;
-    top: 55%;
-    color: #00d5ff;
-    left: 8%;
+    top: 70%;
+    color: white;
+    left: 42.5%;
     font-size: 20px;
 }
 .home_button {
     color: red;
 }
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
 
 .portfolio {
     top: 2%;
